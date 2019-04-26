@@ -1,0 +1,16 @@
+* postgREST tutorial
+
+** emacs 
+
+To find the ip address of the docker container running the postgresql db, see
+https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host
+
+#+BEGIN_SRC bash
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+#+END_SRC
+
+
+See https://truongtx.me/2014/08/23/setup-emacs-as-an-sql-database-client
+
+
+
