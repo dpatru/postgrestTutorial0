@@ -10,7 +10,7 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' con
 #+END_SRC
 
 
-See https://truongtx.me/2014/08/23/setup-emacs-as-an-sql-database-client
+To setup emacs, see https://truongtx.me/2014/08/23/setup-emacs-as-an-sql-database-client
 
 
 
