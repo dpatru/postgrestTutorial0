@@ -6,8 +6,9 @@
 ;; 	(password :default "mysecretpassword")))
 
 
-;; store postgresTutorial password in pass.
-;; see https://stackoverflow.com/a/51850601/268040
+;; Store postgresTutorial password in pass.
+;; Use 'M-x sql-connect postgresTutorial' to connect.
+;; See https://stackoverflow.com/a/51850601/268040
 (require 'subr-x)
 (setq sql-postgres-login-params '())
 (defun my-pass (key)
