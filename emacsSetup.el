@@ -6,6 +6,8 @@
 ;; 	(password :default "mysecretpassword")))
 
 
+;; store postgresTutorial password in pass.
+;; see https://stackoverflow.com/a/51850601/268040
 (require 'subr-x)
 (setq sql-postgres-login-params '())
 (defun my-pass (key)
