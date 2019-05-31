@@ -1,0 +1,14 @@
+* Learning postgrest
+
+** postgres 
+*** schema
+*** roles
+*** json, jsonb
+*** functions or stored procedures
+** jwt.io
+** http return status
+*** 400 error
+402
+403
+
+*** 
